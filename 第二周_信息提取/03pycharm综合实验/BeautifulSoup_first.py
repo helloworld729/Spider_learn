@@ -5,4 +5,6 @@ r = requests.get('http://python123.io/ws/demo.html')
 demo = r.text
 
 soup = BeautifulSoup(demo, 'html.parser')
-print(soup.prettify())
+for son in soup.body.descendants:
+    print(son)
+
