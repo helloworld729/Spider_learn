@@ -1,0 +1,12 @@
+scrapy.cfg 部署配置文件
+
+init：初始化脚本
+item:item继承类
+middle：代码模板（集成类）
+pipeline：pipeline代码模板(集成类)
+
+setting：爬虫配置文件
+
+spider：代码模板目录（继承类）
+
+
