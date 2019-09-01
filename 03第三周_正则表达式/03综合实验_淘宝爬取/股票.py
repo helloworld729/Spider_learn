@@ -74,5 +74,4 @@ def main():
     stoList = []
     get_stock_list(stoList, stock_list_url)
     get_stock_info(stoList, stock_info_url, file_path,num_limit=50)
-
 main()
